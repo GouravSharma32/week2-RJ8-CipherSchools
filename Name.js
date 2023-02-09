@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 // class Name extends Component {
-//     state = { name: "Sarfaraz Ali!" };
+//     state = { name: "Gourav Sharma!" };
 
 //     setName(name) {
 //         this.setState({ ...this.state, name});
@@ -10,17 +10,17 @@ import React, { useState } from "react";
 //         return (
 //             <>
 //             <h1>The name is: {this.state.name}</h1>
-//             <button onClick={() => this.setName("Sarfaraz")}>Click Me!</button>
+//             <button onClick={() => this.setName("Gourav")}>Click Me!</button>
 //             </>
 //         );
 //     }
 // }
 
 const Name = () => {
-    const [state, setState] = useState({ name: "Sarfaraz Ali!" });
+    const [state, setState] = useState({ name: "Gourav Sharma!" });
 
     let setName = (e) => {
-        setState({ ...state, name: "Sarfaraz"});
+        setState({ ...state, name: "Gourav"});
     };
 
     return (
