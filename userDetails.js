@@ -39,7 +39,7 @@ import React, {useState} from "react";
             <h1>{h1Text}</h1>
             <button onClick={(e) => {
                 // console.log(e);
-                setH1Text("This is Ciphar School");
+                setH1Text("This is Cipher Schools");
             }}
             >Click Me!
             </button>
